@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorlib | Bootstrap</title>
+    <link rel="icon" type="image/x-icon" href="/img/hat.png">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  </head>
+
+
+<body>
+
+  <!-- Loader 6 -->
+
+    <box class="loader"></box>
+
+    <!-- scroll-top-btn -->
+    <button type="button" class="scroll" onclick="getontop()"><i class="fa fa-angle-double-up"></i></button>
+
+
+    <!------------------ navbar-upper ------------------>
+
+    <div class="container">
+        <div class="row">
+            <div class="  p-5 align-items-center d-sm-flex d-lg-flex">
+
+                
+
+                    <div class="col-lg-3 col-sm-12 col-md-12  d-flex  justify-content-between">
+                      <div>
+                        <img src="/img/logo.png.webp" alt="">
+                      </div>
+                        <div>
+                        <button class="navbar-toggler d-sm-block d-lg-none rounded text-light d-xl-none " style="background-color: #ff5e15;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                           <span><i class="fa-solid fa-bars fs-4 p-2"></i></span>
+                        </button>
+                      </div>
+                    </div>
+
+              
+            
+
+                <div class="d-flex col-lg-3 d-lg-none d-xl-flex d-none">
+                        <i class="fa-solid fa-location-dot fs-1 mt-1" style="color: #ff5e15;"></i>
+                        <div class="ms-3 oswald">
+                            <p class="mb-0 fw-bold fs-5"> San Francisco </p>
+                            <p class="mb-0" style="color: #808080;"> Mountain View, Fake st., CA</p>
+                        </div>
+                </div>
+
+                
+                <div class="d-flex col-lg-3 d-lg-none d-xl-flex d-none">
+                        <i class="fa-solid fa-phone-volume fs-1 mt-1" style="color: #ff5e15;"></i>
+                        <div class="ms-3 oswald">
+                            <p class="mb-0 fw-bold fs-5">000 209 392 312</p>
+                            <p class="mb-0" style="color: #808080;"> Toll free</p>
+                        </div>
+                </div>
+
+                <div class="d-flex col-lg-3 d-lg-none d-xl-flex d-none">
+                   <i class="fa-solid fa-envelope fs-1 mt-1" style="color: #ff5e15;"></i>
+                        <div class="ms-3 oswald">
+                            <p class="mb-0 fw-bold fs-5"> info@gmail.com</p>
+                            <p class="mb-0" style="color: #808080;"> Gournadi, 1230 Bariasl</p>
+                        </div>
+                </div>
+
+        
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!----------------------- header --------------------->
+
+<nav class=" navbar-expand-lg" style="background-color: #ff5e15;">
+    <div class="container">
+      
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav p-3 fs-6">
+          <li class="nav-item ms-4">
+            <a class="nav-link active oswald fw-bold" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item ms-4">
+            <a class="nav-link active nav-hover text-light fw-bold" aria-current="page" href="#">ABOUT US</a>
+          </li>
+          <li class="nav-item ms-4">
+            <a class="nav-link active nav-hover text-light fw-bold" aria-current="page" href="#">OUR PROJECTS</a>
+          </li>
+          <li class="nav-item ms-4">
+            <a class="nav-link active nav-hover text-light fw-bold" aria-current="page" href="#">TESTIMONIALS</a>
+          </li>
+          <li class="nav-item ms-4">
+            <a class="nav-link active nav-hover text-light fw-bold" aria-current="page" href="#">BLOG</a>
+          </li>
+          <li class="nav-item ms-4">
+            <a class="nav-link active nav-hover text-light fw-bold" aria-current="page" href="#">CONTACT</a>
+          </li>
+     
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--------------------------- banner ------------------------>
+
+  <div id="carouselExampleInterval" class="carousel slide bg-dark" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active " data-bs-interval="3000">
+        <img src="/img/hero_1.jpg.webp" class="d-block w-100 opacity-75" height="800px" alt="...">
+
+        <div class="carousel-caption top-50">
+            <p class="oswald display-1" style="font-size: 50px;">We Are <span class="fw-bold"> Leading </span>Industry of Engineers</p>
+          </div>
+        
+      </div>
+      <div class="carousel-item " data-bs-interval="3000">
+        <img src="/img/hero_1.jpg.webp" class="d-block w-100 opacity-75" height="800px" alt="...">
+        <div class="carousel-caption top-50">
+            <p class="oswald display-1" style="font-size: 50px;">Experts and High Quality Works</p>
+          </div>
+      </div>
+     
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" style="background-color: #ff5e15;" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" style="background-color: #ff5e15;" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!---------------------------- Services (section-03) -------------------------->
+
+  <div class="container" style="margin-bottom: 100px;">
+    <div class="row justify-content-center text-center" >
+
+      <div class="col-lg-6 oswald p-5 mt-4">
+        <h3 class="section-subtitle display-6 fs-3 text-orange">What We Do</h3>
+        <h2 class="section-title display-6 fs-1 mb-4 text-black">We Are <strong>Leading Industry</strong> of Engineering. We Love What We Do</h2>
+      </div>
+
+    </div>
+
+         <div class="row">
+
+                              <!-- service-box-01 -->
+                  <div class="col-md-6 col-lg-6 col-xl-3 border oswald d-flex justify-content-center">
+                      <div>
+                        <p class="justify-content-end d-flex fs-4 me-2" style="color: #DCDCDC;">01</p>
+
+                        <div class="mb-5 ms-5 me-4 pe-1">
+                            <div class="d-flex">
+                                <p style="clip-path: polygon(100% 0, 0 0, 0 100%); background-color: #ff5e15; width: 70px; height: 70px;" class="position-absolute"></p>
+                                <p><img src="/img/worker.png" alt="" class="position-relative ms-3" height="70px" width="70px"></p>
+                            </div>
+
+                          <p class="fw-bold fs-4 display-6">Professional Team</p>
+                          <p class="text-l-grey display-6 fs-6 sans-sarif" style="line-height: 1.50;">Gravida sodales condimentum pellen tesq accumsan orci quam sagittis sapie</p>
+                        </div>
+                      </div>
+                  </div>
+
+                              <!-- service-box-02 -->
+                  <div class="col-md-6 col-lg-6 col-xl-3 border oswald d-flex justify-content-center">
+                    <div>
+                      <p class="justify-content-end d-flex fs-4 me-2" style="color: #DCDCDC;">02</p>
+
+                      <div class="mb-5 ms-5 me-4 pe-1">
+                          <div class="d-flex">
+                              <p style="clip-path: polygon(100% 0, 0 0, 0 100%); background-color: #ff5e15; width: 70px; height: 70px;" class="position-absolute"></p>
+                              <p><img src="/img/drawing-compass.png" alt="" class="position-relative ms-3" height="70px" width="70px"></p>
+                          </div>
+
+                        <p class="fw-bold fs-4 display-6">Great Ideas</p>
+                        <p class="text-l-grey display-6 fs-6 sans-sarif" style="line-height: 1.50;">Gravida sodales condimentum pellen tesq accumsan orci quam sagittis sapie</p>
+                      </div>
+                    </div>
+                </div>
+
+        
+                      <!-- service-box-03 -->
+                      <div class="col-md-6 col-lg-6 col-xl-3 border oswald d-flex justify-content-center">
+                        <div>
+                          <p class="justify-content-end d-flex fs-4 me-2" style="color: #DCDCDC;">03</p>
+          
+                          <div class="mb-5 ms-5 me-4 pe-1">
+                              <div class="d-flex">
+                                  <p style="clip-path: polygon(100% 0, 0 0, 0 100%); background-color: #ff5e15; width: 70px; height: 70px;" class="position-absolute"></p>
+                                  <p><img src="/img/oil-platform.png" alt="" class="position-relative ms-3" height="70px" width="70px"></p>
+                              </div>
+          
+                            <p class="fw-bold fs-4 display-6">Quality Building</p>
+                            <p class="text-l-grey display-6 fs-6 sans-sarif" style="line-height: 1.50;">Gravida sodales condimentum pellen tesq accumsan orci quam sagittis sapie</p>
+                          </div>
+                        </div>
+                    </div>
+          
+                                <!-- service-box-04 -->
+                    <div class="col-md-6 col-lg-6 col-xl-3 border oswald d-flex justify-content-center">
+                      <div>
+                        <p class="justify-content-end d-flex fs-4 me-2" style="color: #DCDCDC;">04</p>
+          
+                        <div class="mb-5 ms-5 me-4 pe-1">
+                            <div class="d-flex">
+                                <p style="clip-path: polygon(100% 0, 0 0, 0 100%); background-color: #ff5e15; width: 70px; height: 70px;" class="position-absolute"></p>
+                                <p><img src="/img/construction.png" alt="" class="position-relative ms-3" height="70px" width="70px"></p>
+                            </div>
+          
+                          <p class="fw-bold fs-4 display-6">Quality Works</p>
+                          <p class="text-l-grey display-6 fs-6 sans-sarif" style="line-height: 1.50;">Gravida sodales condimentum pellen tesq accumsan orci quam sagittis sapie</p>
+                        </div>
+                      </div>
+                  </div>        
+        </div>
+  </div>
+
+
+            <!---------------------------- Choose-menu (section-04) -------------------------->
+
+
+      <div class="" style="background-color: #09162a;">
+
+        <div class="container">
+          <div class="row">
+
+                <div class="position-relative col-xl-6 " style="top: -40px;">
+                  <img src="/img/about_1.jpg (1).webp" alt="" height="691px" width="540px" class="img-fluid img">
+                </div>
+
+                <div class="col-xl-6 oswald" style="padding: 90px;">
+
+                      <h3 class="section-subtitle display-6 fs-5 text-orange">WHY CHOOSE US</h3>
+                      <div class="fs-2 text-light display-6 mt-1">More than <strong>50 year experience</strong> in <br>industry</div>
+                      <div class="text-l-grey display-6 fs-5 sans-sarif mt-4" style="line-height: 1.70;">Reprehenderit, odio laboriosam? Blanditiis quae ullam quasi illum minima nostrum perspiciatis error consequatur sit nulla.</div>
+
+                        <div class="d-flex align-items-center mt-5">
+                          <img src="/img/oil-platform.png" class="bg-png bg-orange p-1 rounded" alt="" height="60px" width="60px">
+
+                          <div class="text-light ms-4">
+                            <p class="fs-4 mb-0 display-6 ">Expert in Builings</p>
+                            <p class="mb-0 mt-1 sans-sarif" style="color:rgb(202, 202, 202);">Lorem ipsum dolor sit amet.</p>
+                          </div>
+                        </div>
+
+                        <div class="d-flex align-items-center mt-4">
+                          <img src="/img/design.png" class="bg-png bg-orange p-1 rounded" alt="" height="60px" width="60px">
+
+                          <div class="text-light ms-4">
+                            <p class="fs-4 mb-0 display-6 ">Modern Design</p>
+                            <p class="mb-0 mt-1 sans-sarif" style="color:rgb(202, 202, 202);">Lorem ipsum dolor sit amet.</p>
+                          </div>
+                        </div>
+
+                        <div class="d-flex align-items-center mt-4">
+                          <img src="/img/blueprint.png" class="bg-png bg-orange p-1 rounded" alt="" height="60px" width="60px">
+
+                          <div class="text-light ms-4">
+                            <p class="fs-4 mb-0 display-6 ">Leading In Floor Planning</p>
+                            <p class="mb-0 mt-1 sans-sarif" style="color:rgb(202, 202, 202);">Lorem ipsum dolor sit amet.</p>
+                          </div>
+                        </div>
+                </div>
+          </div>
+        </div>
+      </div>
+
+      <!--------------------------- Form-menu (section-05) ------------------------->
+
+      <div class="container ">
+        <div class="row ">
+
+
+          <div class="col-xl-6">
+                    <img src="/img/img_transparent.png.webp" alt="" height="668" width="382px">
+          </div>
+
+          <div class="col-xl-6 bg-black oswald" style="margin-top: 50px; margin-bottom: 45px; padding: 80px;">
+
+            <p class="section-subtitle display-6 fs-5 text-orange">WHY CHOOSE US</p>
+            <div class="fs-2 text-light display-6 mt-1">Request A <strong class="fw-bold">Quote</strong></div>
+            
+            <form class="mt-5 sans-sarif">
+
+                <div class="row mt-2">
+                  <div class="col-xl-6">
+                    <input type="text" class="w-100 p-2 border-0 border-bottom text-light bg-black" placeholder="Your name *" checked>
+                  </div>
+                  <div class="col-xl-6">
+                    <input type="number" class="w-100 p-2 border-0 border-bottom text-light bg-black" placeholder="Phone number">
+                  </div>
+                </div>
+
+                <div class="row mt-4">
+                  <div class="col-xl-6">
+                    <input type="email" class="w-100 p-2 border-0 border-bottom text-light bg-black" placeholder="Your email *" checked>
+                  </div>
+                  <div class="col-xl-6">
+                    <input type="text" class="w-100 p-2 border-0 border-bottom text-light bg-black" placeholder="Subject">
+                  </div>
+                </div>
+
+                <div class="row mt-4">
+                  <div class="col-xl-6">
+                    <textarea class="w-100 p-2 bg-black border-0 border-bottom text-light" placeholder="Message *" style="height: 150px;"></textarea>
+                  </div>
+                  <div class="col-xl-6" style="margin-top: 110px;">
+                    <button class="btn-send border-0 p-2">SEND MESSAGE</button>
+                  </div>
+                </div>
+
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!----------------------------------- Projects ------------------------------------>
+
+      <div class="" style="background-color: #09162a; margin-bottom: 100px;">
+
+        <div class="container">
+          <div class="row">
+
+            <div class="swiper mySwiper" style="bottom: -80px;">
+
+          <p class="text-orange oswald fs-4 mb-0">OUR PROJECTS</p>
+          <p class="text-light display-6 fs-1 oswald" style="padding-bottom: 70px;">Explore Our <strong class="fw-bold">Recent Projects</strong></p>
+      
+       
+          <div class="swiper-wrapper ">
+            
+            <div class="swiper-slide pr-img-container bg-black position-relative z-1">
+              <img src="/img/works_1.jpg.webp" class="img-pr" alt="">
+                  <div class=" position-absolute pr-text oswald ms-4">
+                  <p class="text-orange fs-5 mb-0">FACTORY </p>
+                  <p class="fs-2 text-light">Building Refinery </p>
+                  </div>
+            </div>
+
+            <div class="swiper-slide pr-img-container bg-black position-relative z-1">
+              <img src="/img/works_2.jpg.webp" class="img-pr" alt="">
+                  <div class=" position-absolute pr-text oswald ms-4">
+                  <p class="text-orange fs-5 mb-0">FACTORY </p>
+                  <p class="fs-2 text-light">Building Refinery </p>
+                  </div>
+            </div>
+
+            <div class="swiper-slide pr-img-container bg-black position-relative z-1">
+              <img src="/img/works_3.jpg.webp" class="img-pr" alt="">
+                  <div class=" position-absolute pr-text oswald ms-4">
+                  <p class="text-orange fs-5 mb-0">FACTORY </p>
+                  <p class="fs-2 text-light">Building Refinery </p>
+                  </div>
+            </div>
+
+            <div class="swiper-slide pr-img-container bg-black position-relative z-1">
+              <img src="/img/works_4.jpg.webp" class="img-pr" alt="">
+                  <div class=" position-absolute pr-text oswald ms-4">
+                  <p class="text-orange fs-5 mb-0">FACTORY </p>
+                  <p class="fs-2 text-light">Building Refinery </p>
+                  </div>
+            </div>
+
+          </div>
+          
+          <div class="swiper-pagination position-relative" style="bottom: -5px;"></div>
+        </div>
+
+      </div>
+        </div>
+      </div>
+
+      <!-------------------------------- Testimonial ----------------------------->
+
+      <div class="container" style="margin-bottom: 100px;">
+
+        <div class="row justify-content-center text-center" >
+                <div class="text-orange fs-4 oswald" style="margin-top: 100px;">TESTIMONIAL</div>
+                <div class="fs-2 oswald mb-5">What People Says </div>
+        </div>
+
+        <div class="row mt-4">
+
+            <div class="col-lg-6">
+              <img src="/img/person_3_sq.jpg.webp" class="rounded-circle" height="100px" width="100px" alt="">
+
+              <p class="sans-sarif fs-4 mt-3">“Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident deleniti iusto molestias, dolore vel fugiat ab placeat ea?”</p>
+              <p class="oswald text-orange fs-4 display-6">MATT KEYGEN</p>
+            </div>
+
+            <div class="col-lg-6">
+              <img src="/img/person_4_sq.jpg.webp" class="rounded-circle" height="100px" width="100px" alt="">
+
+              <p class="sans-sarif fs-4 mt-3">“Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident deleniti iusto molestias, dolore vel fugiat ab placeat ea?”</p>
+              <p class="oswald text-orange fs-4 display-6">MATT KEYGEN</p>
+            </div>
+        </div>
+      </div>
+
+
+      <!------------------------------ Blog ---------------------------->
+
+      <div class="" style="background-color: #f8f9fa; padding-top: 80px;">
+
+        <div class="container">
+
+          <div class="row">
+          <p class="text-orange oswald fs-4 mb-0">BLOG</p>
+          <p class="display-6 fs-1 oswald" style="padding-bottom: 70px;">News & Updates</p>
+          </div>
+
+          <div class="row justify-content-center" style="padding-bottom: 80px;">
+
+                <div class="col-xl-4 col-lg-6 blog-img-container">
+                    <img src="/img/hero_1.jpg.webp" class="blog-img" alt="" height="233px" width="350px">
+
+                    <p class="fs-4 oswald mt-4">Top Companies That Are Best In <br> Industrial Business</p>
+                    <p class="sans-sarif" style="color: #B0B0B0;">Posted by <span class="text-orange"> Admin </span>In <span class="text-orange"> News</span></p>
+                </div>
+
+                <div class="col-xl-4 col-lg-6 blog-img-container">
+                  <img src="/img/hero_1.jpg.webp"  class="blog-img" alt="" height="233px" width="350px">
+
+                  <p class="fs-4 oswald mt-4">Top Companies That Are Best In <br> Industrial Business</p>
+                  <p class="sans-sarif" style="color: #B0B0B0;">Posted by <span class="text-orange"> Admin </span>In <span class="text-orange"> News</span></p>
+              </div>
+
+              <div class="col-xl-4 col-lg-6 blog-img-container">
+                <img src="/img/hero_1.jpg.webp"  class="blog-img" alt="" height="233px" width="350px">
+
+                <p class="fs-4 oswald mt-4">Top Companies That Are Best In <br> Industrial Business</p>
+                <p class="sans-sarif" style="color: #B0B0B0;">Posted by <span class="text-orange"> Admin </span>In <span class="text-orange"> News</span></p>
+              </div>
+
+          </div>
+        </div>
+      </div>
+
+
+      <!------------------------------ Subscribe ---------------------------->
+    <div style="background-color: #ff5e15;">
+      <div class="container pt-5 pb-5">
+        <div class="row align-items-center">
+
+          <div class="col-lg-6 text-light">
+            <p class="fs-3 oswald display-5">SUBSCRIBE TO NEWSLETTER</p>
+            <p class="sans-sarif fs-5 display-6" style="line-height: 1.5;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, reprehenderit!</p>
+          </div>
+
+          <div class="col-lg-6">
+          <form class="d-flex" role="search">
+            <input class="bg-orange border-light w-75 p-2" type="search"  aria-label="Search">
+            <button class="w-25 bg-dark text-light border-0  sans-sarif" type="submit">SUBSCRIBE</button>
+          </form>
+        </div>
+
+        </div>
+      </div>
+    </div>    
+
+    <!-- footer -->
+
+    <div class="bg-black">
+      <div class="container pt-5 pb-5">
+        <div class="row">
+
+          <div class="col-xl-3 col-lg-6">
+            <img src="/img/logo2.png.webp" alt="">
+
+            <p class="text-light mt-4 sans-sarif" style="line-height: 1.6;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo minima qui dolor, iusto iure.</p>
+            <p class="f-text sans-sarif">Learn More</p>
+          </div>
+
+          <div class="col-xl-3 col-lg-6">
+            <div class="oswald fs-5 text-light" style="border-bottom: 2px solid #ff5e15; margin-right: 190px;">OUR COMPANY</div>
+
+            <p class="sans-sarif f-text mt-4">About</p>
+            <p class="sans-sarif f-text">News</p>
+            <p class="sans-sarif f-text">Services</p>
+            <p class="sans-sarif f-text">Our Team</p>
+            <p class="sans-sarif f-text">Careers</p>
+            <p class="sans-sarif f-text">Projects</p>
+
+          </div>
+
+          <div class="col-xl-3 col-lg-6">
+            <div class="oswald fs-5 text-light" style="border-bottom: 2px solid #ff5e15; margin-right: 190px;">OUR SERVICES</div>
+
+            <p class="sans-sarif f-text mt-4">Industrial</p>
+            <p class="sans-sarif f-text">Construction</p>
+            <p class="sans-sarif f-text">Remodeling</p>
+          </div>
+
+          <div class="col-xl-3 col-lg-6">
+            <div class="oswald fs-5 text-light" style="border-bottom: 2px solid #ff5e15; margin-right: 190px;">CONTACT</div>
+
+            <p class="sans-sarif f-text mt-4">Help Center</p>
+            <p class="sans-sarif f-text">Support Community</p>
+            <p class="sans-sarif f-text">Press</p>
+            <p class="sans-sarif f-text">FAQ</p>
+            <p class="sans-sarif f-text">Our Partners</p>
+          </div>
+        </div>
+              <div class="text-light text-center mt-5 mb-3">Copyright ©2023 All rights reserved | This template is made with <i class="fa-solid fa-heart" style="color: #ff0000;"></i>  by Colorlib</div>
+      </div>
+    </div>
+      
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+      
+        <!-- Initialize Swiper -->
+        <script>
+          var swiper = new Swiper(".mySwiper", {
+            slidesPerView:1,
+            spaceBetween: 10,
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+            breakpoints: {
+              "@0.00": {
+                slidesPerView: 1,
+                spaceBetween: 10,
+              },
+              "@0.75": {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+              "@1.00": {
+                slidesPerView: 3,
+                spaceBetween: 40,
+              },
+            },
+          });
+        </script>
+
+   
+<script>
+
+  // Scroll-Top
+
+  $(window).scroll(function(){
+  if($(this).scrollTop() > 100){
+      $('.scroll').fadeIn('slow');
+  } else {
+      $('.scroll').fadeOut('slow');
+  }    
+  });
+
+  function getontop(){
+      document.documentElement.scrollTop = 0;
+      
+  }
+
+
+</script>
+
+        
+      
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
